@@ -9,7 +9,7 @@ This patches code in AudioSes.dll in memory to prevent TeamViewer's process from
 volume of the microphone. It does not touch TeamViewer's code itself so it
 shouldn't (maybe?) trigger any anti-tamper measures.
 
-Only tested in Windows 10 and probably only works thre.
+Only tested in Windows 10 and probably only works there.
 
 Note that if you use this you do at your own risk. It is a shame that this is the
 only way to get it to behave acceptably, but here we are.
@@ -31,4 +31,4 @@ cmake --build .
 
 ## Usage
 
-Just run the exe with TeamViewer running and it will work until you close it.
+Just run the exe as admin with TeamViewer running and it will work until you close it.
